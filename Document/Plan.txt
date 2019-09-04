@@ -1,0 +1,18 @@
+Task                                            Estimate date
+Voice input                                     Finished
+Filler words                                    Finished
+Pause                                           Finished
+Menu interface                                  September 8, 2019
+Heart rate detection                            September 10, 2019 
+Interface                                       September 15, 2019
+    >> Result screen                            September 15, 2019
+    >> Setting screen                           September 15, 2019
+    >> etc.                                     September 15, 2019
+Gaze Direction                                  September 23, 2019
+Speech room                                     September 23, 2019
+Context analysis                                -
+    >> User                                     
+    >> Context 
+
+    
+    
