@@ -31,7 +31,7 @@ yesterday2 = str((datetime.datetime.now() - datetime.timedelta(days=1)).strftime
 today = str(datetime.datetime.now().strftime("%Y-%m-%d"))
 y = datetime.datetime.now()
 timeEnd = y.strftime("%H"":""%M")
-timeStart = y - datetime.timedelta(seconds=duration+600)
+timeStart = y - datetime.timedelta(seconds=1000)
 timeStart = timeStart.strftime("%H"":""%M")
 
 
@@ -45,29 +45,29 @@ for i in fit_statsHR['activities-heart-intraday']['dataset']:
     val_list.append(i['value'])
     time_list.append(i['time'])
 heartdf = pd.DataFrame({'Heart Rate':val_list,'Time':time_list})
-heartdf
+print(heartdf)
 
 
 # In[142]:
 
 
-#start button:
-t0 = time.time()
-#Codeasdaasdsdasdsadadsasdasd
-time.sleep(3.0)
-#stop button
-t1 = time.time()
-duration = t1 - t0 
+# #start button:
+# t0 = time.time()
+# #Codeasdaasdsdasdsadadsasdasd
+# time.sleep(3.0)
+# #stop button
+# t1 = time.time()
+# duration = t1 - t0 
 
 
-# In[150]:
+# # In[150]:
 
 
-duration+50
+# duration+50
 
 
-# In[ ]:
+# # In[ ]:
 
 
-
+print("finish")
 
